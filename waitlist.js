@@ -17,16 +17,10 @@ function waitlist() {
 
   while (true) {  
     message = getMessage();    
-    var response = display.main.execute();
-    if (joinButton) {
-      join(response);
-    }
-    if (seeListButton) {
-      showList();
-    }
-    if (editLocationIcon) {      
-      askLocation();
-    }
+    display.main.execute();
+    if (joinButton) join();
+    if (seeListButton) showList();
+    if (editLocationIcon) askLocation();
   }
 
   // Prompt to select a location
@@ -47,8 +41,7 @@ function waitlist() {
   }
 
   // Join the waitlist
-  function join(data) {
-
+  function join() {
     if (partySize < 1) {
       display.popupMessage.execute({ message: "You must have at least 1 person in your party." });
       return;
@@ -92,8 +85,7 @@ function waitlist() {
         return "There is 1 party on the waitlist.";
       default:
         return "There is " + count + " parties on the waitlist.";
-    }
-    
+    }    
   }
 
 }
