@@ -9,3 +9,5 @@ Feel free to Fork this space and customize for your own business.
 
 ![screenshot](public/screenshot.png)
 
+Deployed to NodeRun.com. See https://noderun.com/alex/waitlist-app.
+
