@@ -11,3 +11,5 @@ Feel free to Fork this space and customize for your own business.
 
 Deployed to NodeRun.com. See https://noderun.com/alex/waitlist-app.
 
+View code on GitHub here: https://github.com/aroytman/waitlist.
+
