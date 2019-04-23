@@ -9,7 +9,7 @@ Feel free to Fork this space and customize for your own business.
 
 ![screenshot](public/screenshot.png)
 
-Deployed to NodeRun.com. See https://noderun.com/alex/waitlist-app.
+Deployed to NodeRun: https://noderun.com/alex/waitlist-app.
 
-View code on GitHub here: https://github.com/aroytman/waitlist.
+View code on GitHub: https://github.com/aroytman/waitlist.
 
